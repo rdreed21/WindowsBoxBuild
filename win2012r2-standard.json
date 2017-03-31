@@ -57,6 +57,7 @@
       "iso_checksum_type": "sha1",
       "iso_url": "{{ user `iso_url` }}",
       "shutdown_command": "{{ user `shutdown_command`}}",
+      "shutdown_timeout": "30m",
       "type": "virtualbox-iso",
       "vboxmanage": [
         [
